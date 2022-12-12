@@ -15,3 +15,4 @@ var pin_code = "444004";
 var gender = "Male";
 var is_married = "Yes";
 console.log(firstName,lastName,age,address,pin_code,gender,is_married);
+
