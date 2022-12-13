@@ -31,10 +31,13 @@ swap_values(1000,2000);
 console.log("==========================================================");
 console.log("****Function with Argument and Return****");
 function addThreeNumbers(num1,num2,num3){
-console.log(num1+num2+num3);
+var Total = num1+num2+num3;
+return Total;
 }
-addThreeNumbers(10.23, 600, 40);
-addThreeNumbers(" Hello"," Good"," Morning");
+var Anser =addThreeNumbers(10.23, 600, 40);
+console.log(Anser);
+var stetment =addThreeNumbers(" Hello"," Good"," Morning");
+console.log(stetment);
 
 
 
