@@ -1,11 +1,11 @@
-function display(){
+/*  function display(){
     console.log("My name : NAGESH");
     console.log("My sirName : KKHANDARE");
     console.log("My sir name is : GAJANAN SIR");
 }
 
 
-display();  //function call  or function invocation
+display();  //function call  or function invocation   
 //===============================================================================
 
 // wirte a function show wihc sohuld log you colleage name
@@ -13,11 +13,11 @@ display();  //function call  or function invocation
 function show(colloge){
     console.log(colloge);
 }
-show("myCollageName : ssgbcoe Bhuswal")
+show("myCollageName : ssgbcoe Bhuswal");
 
 //-----------------------------------------------------------------------
 
-
+                                                                               */
 
 function showDetails(myName){
  console.log("Details", myName);

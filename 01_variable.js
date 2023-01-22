@@ -11,8 +11,8 @@ console.log(myFrdName);
 console.log("===Learing typeof===");
 var age = 37 // string ie  "" amd ''
 var ageType =typeof age;   // value store shwo 
-console.log(ageType);
-console.log(typeof age);
+console.log(age);
+console.log(`agetype = ${ageType}`);
 
 
 var pinCode ="444004";
