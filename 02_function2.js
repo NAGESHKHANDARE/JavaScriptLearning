@@ -1,4 +1,7 @@
+
+
 function multiply(num1, num2){
+    
     var result = num1 * num2  // or  console.log( num1 * num2); direct use
     console.log(result);
     return result;          // it use ful for direct consule log ans and it is short cut
