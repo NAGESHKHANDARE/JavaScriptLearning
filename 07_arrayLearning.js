@@ -48,6 +48,7 @@ for (let index = 0; index < arrayOfNumbers.length; index++) // index value is ev
     console.log(element);   
   }
 }
+
 console.log(` `);
 console.log(`-----------traversing array using for loop in reverse order-----------`);
 // initialization   condition     update
