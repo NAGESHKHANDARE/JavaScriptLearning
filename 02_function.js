@@ -1,4 +1,4 @@
-/*  function display(){
+ /* function display(){
     console.log("My name : NAGESH");
     console.log("My sirName : KKHANDARE");
     console.log("My sir name is : GAJANAN SIR");
@@ -17,7 +17,7 @@ show("myCollageName : ssgbcoe Bhuswal");
 
 //-----------------------------------------------------------------------
 
-                                                                               */
+                                                                     
 
 function showDetails(myName){
  console.log("Details", myName);
@@ -96,7 +96,7 @@ rajuBhaiy(100, "Bag", "Mobile");
  swapValues("you", "me");
  swapValues(first, second)
  
-//==========================================================
+//==========================================================                      */
 
 function hello(myName);
 {
@@ -115,3 +115,9 @@ function rajuBhaiy(paisa){
 }
 var bagOfVegetables= rajuBhaiy(100);
 console.log(bagOfVegetables);       // Ans=Bag of vegetables
+
+
+
+
+
+

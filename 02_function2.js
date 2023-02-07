@@ -9,5 +9,5 @@ function multiply(num1, num2){
 var multiplyResult = multiply(56, 45);
 var finalResult = multiplyResult + 100;
  console.log(finalResult);
-
+ console.log(multiplyResult);
  console.log("multiplyRes = ", multiply(10, 10)); //due to retune value come back this console is retune value not code or write on function gorup then they undefined becouse no value returend

@@ -2,9 +2,11 @@
 
 const  parson = {
     height : 6,
-    "weight" : 70, // proerty  : value
+    "weight" : "sevnty", // proerty  : value
     "age" : 23,
+    ages : 60,
     name : "nagesh",
+    
     speak : function () {
         console.log(`hey i can spea english and hindi`);
     }
@@ -19,11 +21,15 @@ console.log(`---------------------------------------------`);
 // select partulcal property by dot
 console.log(`Accessing object properties using DOT notation`);
 const parsonAge = parson.age;
-console.log(`parson age are : ${parsonAge}`);
+const parsonages = parson.ages;
+console.log(`parson age are string : ${parsonAge}`);
+console.log(`parson ages are NS : ${parsonages}`);
 // by squre brac
 console.log(`Accessing object properties using SQUARE Bracket notation`);
-const personName = parson["name"]
+const personName = parson["name"];
+const personWeght = parson["weight"];
 console.log(personName);
+console.log(personWeght);
 
 console.log("");
 console.log(`---------------------------------------------`);
@@ -149,8 +155,33 @@ const billgates = {
     height : 7,    //key : vlaues
     weight : 70,
     age : 78,
-    name : "billgatess"
+    name : "billgatess",
+    company : "Microsoft",
+    valuation : "130B $0"
+
 }
-console.log(Object.entries(billgates));
+console.log("-----------Available AND DELETE-------------");
+const isavailabel = "height" in billgates;    //true
+console.log(isavailabel);
+if (isavailabel) {
+    delete billgates.height;// delete height
+    console.log(`" height " prpperty is deleted successfully `);// so true threfore this statment show
+}else
+{
+    console.log(`" height " prpperty is not deleted as it is available inside object `);
+}
+
+/*   console.log(Object.entries(billgates));
 console.log(Object.keys(billgates));
 console.log(Object.values(billgates));
+*/
+
+console.log("-------------------for in loop-----------------------------");
+
+for (const key in billgates) {
+    if (Object.hasOwnProperty.call(billgates, key)) {
+        const element = billgates[key];
+        console.log(key, element);
+        
+    }
+}

@@ -16,6 +16,7 @@ console.log(`type of array - arrayofno --> ${typeofarray}`);
 
 console.log("  ");
 console.log( `====Accessing array elements=====`);
+console.log(arrayOfNumbers);
 let elementAtZeroIndex = arrayOfNumbers[0];
 console.log(`Element at zero index : ${elementAtZeroIndex}`);
 console.log(`Element at fifth index : ${arrayOfNumbers[4]}`);
@@ -118,9 +119,9 @@ console.log(` ------ slice() methods--------`);
 var arrayOfNum =[4, 5, 6, 8, 9, 33, 66];
 console.log(arrayOfNum);
 // write from 3 index (if count start zero)
-let slicetResult = arrayOfNum.slice(3);  // [8 9 33 66]
+/* let slicetResult = arrayOfNum.slice(3);  // [8 9 33 66]*/
 let sliceRes = arrayOfNum.slice(2, 5); //[6 8 9]
-console.log(slicetResult);
+/* console.log(slicetResult);*/
 console.log(sliceRes);
 
 
