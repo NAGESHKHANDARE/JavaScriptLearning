@@ -92,14 +92,17 @@ prime(0);
 
 function isPrime(num) {
     if (num <= 1) {
-        return false;
+        let res = "No Prime Number";
+        return res;
     }
     for (let i = 2; i < num; i++) {
         if (num % i === 0) {
-            return false;
+            let result = "No Prime Number "
+            return result;
         }
     }
-    return true;
+    let Result = "Prime Number"
+    return Result;
 }
 
 
