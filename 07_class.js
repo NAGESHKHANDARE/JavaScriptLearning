@@ -38,3 +38,33 @@ console.log(empBill.name,empBill.age,empBill.city,empBill.id);
 console.log("                 --------------");
 empSmit.details();
 empJay.details();
+
+
+// studend
+class Studend {
+    name
+    rollno
+    age
+    graduation
+    constructor(name, rollno, age, graduation){
+        this.name= name;
+        this.rollno=rollno;
+        this.age=age;
+        this.graduation;
+    }
+    details() {console.log(this.name, this.rollno,this.age,this.graduation);}
+}
+let studNagesh = new Studend("Nagesh", 21, 38," BE EC");
+let studMukta = new Studend()
+
+
+
+
+
+// how to check studNagesh made by which class  bcz no of class studend , employed , techer etc but i dont known stuNagesh which class  
+let isstance = studNagesh instanceof Studend;          // true
+let isstance1 = studNagesh instanceof Emplyee; 
+console.log(isstance);  // true
+console.log(isstance1);  // false
+
+// object is an instance of class

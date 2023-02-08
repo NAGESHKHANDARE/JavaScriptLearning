@@ -115,3 +115,25 @@ console.log("6 : ",isPrime(6));
 console.log("7 : ",isPrime(7));
 
 
+
+
+
+// studend
+class Studend {
+    name
+    rollno
+    age
+    graduation
+    constructor(name, rollno, age, graduation){
+        this.name= name;
+        this.rollno=rollno;
+        this.age=age;
+        this.graduation;
+    }
+    details() {console.log(this.name, this.rollno,this.age,this.graduation);}
+}
+let studNagesh = new Studend("Nagesh", 21, 38," BE EC");
+let studMukta = new Studend()
+
+
+
