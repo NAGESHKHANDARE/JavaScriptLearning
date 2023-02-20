@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Session Strorage</title>
+    </head>
+    <body>
+        <h2> Session Stroage Learning </h2>
+        <script>
+            console.log("Hello  --> Session storage");
+            // temprory storage when session on or tab close it clear
+            window.sessionStorage.setItem("name", "Nagesh");
+            window.sessionStorage.setItem("grade","A+");
+            window.sessionStorage.setItem("college","ssgb,bhuwal");
+            window.sessionStorage.setItem("city","Akola");
+            
+            const len = window.sessionStorage.length;
+            console.log(len);
+
+            const clgName = window.sessionStorage.getItem("college");
+            console.log(clgName);
+            window.sessionStorage.removeItem("grade");
+            //window.sessionStorage.clear();
+        </script>
+    </body>
+</html>
