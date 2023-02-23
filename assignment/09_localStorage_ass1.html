@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Local Strorage</title>
+    </head>
+    <body>
+        <h2> Local Stroage Learning </h2>
+        <script>
+            console.log("Hello  --> Local storage");
+            // storage when session on or tab close
+            window.localStorage.setItem("name", "Nagesh Namdeo khandare");
+            window.localStorage.setItem("city","Akola");
+            window.localStorage.setItem("PinCode","444004");
+            window.localStorage.setItem("district","Akola")
+            const len = window.localStorage.length;
+            console.log(len);
+
+            const distName = window.localStorage.getItem("district");
+            console.log(distName);
+            window.localStorage.removeItem("city");
+            //window.localStorage.clear();
+        </script>
+    </body>
+</html>

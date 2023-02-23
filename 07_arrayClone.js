@@ -46,7 +46,7 @@ let mergedObject = {...empNagesh,...empAddress}
 console.log(mergedObject);
 
 
-
+// spread operater use clongin or deep cloning and marge array
 
 
 
