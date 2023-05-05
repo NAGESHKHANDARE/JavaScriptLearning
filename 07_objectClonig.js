@@ -15,7 +15,7 @@ console.log(yourName);// jenifer
 
 
 console.log(" ");
-console.log("------------------------------------ ");
+console.log("----------------A-------------------- ");
 
 
 
@@ -30,13 +30,13 @@ let sunil ={
     name : "Sunil",
     company : "Google"
 }
-anil =sunil;  //shallow cloning it is use "=" equal singe
+anil =sunil;  //shallow cloning it is use "=" equal singe  ^^^^^^^^^
 sunil.country = "India";
 console.log("sunil ", sunil);
 console.log("Anil ",anil);
 
 console.log(" ");
-console.log("-----------------------------------------------------------");
+console.log("---------------------------B--------------------------------");
 
 
 // 1. Deep clone using Spread Operator ...
@@ -57,7 +57,7 @@ console.log(empMohit);
 
 
 console.log(" ");
-console.log("-----------------------------------------------------------");
+console.log("--------------------------C---------------------------------");
 
 
 // 2. Deep cloning using JSON(JavaScript Object Notation) 

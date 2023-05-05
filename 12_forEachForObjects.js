@@ -14,8 +14,9 @@ let mahindra = new Vehicle("Mahindra","Thao","Petrol","Four wheel Drive",125000 
 let honda = new Vehicle("Honda","Unicorn","Petrol","Two wheelar",125000 );
 let  hero = new Vehicle("Hero","Splender","Petrol","Two wheeler",85000 );
 
-
 const arrayofVehicles = [audiA3,audiQ3,mahindra,honda,hero];
+
+console.log("====less then 150k=====");
 arrayofVehicles.forEach(Vehicle=>{
     if(Vehicle.price<150000)
     console.log(Vehicle.model,Vehicle.company,Vehicle.drive,Vehicle.fuel,Vehicle.price);

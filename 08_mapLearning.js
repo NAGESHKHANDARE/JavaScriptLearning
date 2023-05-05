@@ -33,7 +33,7 @@ for(const key of allkeys){
 }
 
 console.log(`----------------------------------------------------------------`);
-const mapOfNumbers = new Map();// creatie mao
+const mapOfNumbers = new Map();// creatie map
 mapOfNumbers.set(11, "Eleven");// set key and value pair
 mapOfNumbers.set(22,"Twenty two");
 mapOfNumbers.set(2, "Two");
@@ -41,23 +41,29 @@ mapOfNumbers.set(11,"Ten+ one");
 mapOfNumbers.set(33,"Eleven");
 mapOfNumbers.set(44,"Forty four");
 mapOfNumbers.set(50,"Fifty");
+
+console.log("a=>");
 console.log(mapOfNumbers);//{}
 
 const valueForKey22 = mapOfNumbers.get(22);
+console.log("b=>");
 console.log(valueForKey22);//Twenty two
 
 const valueForKey11 = mapOfNumbers.get(11);//overWrite
+console.log("c=>");
 console.log(valueForKey11);//Ten+ one not Eleven bcz overwrite
 
+console.log("d=>");
 console.log(mapOfNumbers);
 console.log(mapOfNumbers.size);
 mapOfNumbers.delete(11);
+console.log("e=>");
 console.log(mapOfNumbers);
 
 
 
 console.log("====== Traversing over Map ======");
-const keysOfMap = mapOfNumbers.keys()
+const keysOfMap = mapOfNumbers.keys()//MapIterator {22, 2, 33, 44, 50}
 console.log(keysOfMap);
 for (const key of keysOfMap) {
     console.log(key,  mapOfNumbers.get(key));
@@ -82,11 +88,20 @@ mapOfEmployees.set(22, empDhir);
 mapOfEmployees.set(33, empSachin);
 mapOfEmployees.set(44, empGayatri);
 
+console.log("a=>");
+console.log(mapOfEmployees);
+
 const keyofMapEmp = mapOfEmployees.keys();
-console.log(keyofMapEmp);
-for (const key of keyofMapEmp) {
+console.log("b=>");
+console.log(keyofMapEmp);//MapIterator {11, 22, 33, 44}
+
+for (const key of keyofMapEmp) {            //ooooooooooooo
     const employee = mapOfEmployees.get(key);
     console.log(employee.empName,employee.empCity);
     
 }
 
+console.log("-----------");
+const numbers = [1, 2, 3, 4, 5];
+const doubledNumbers = numbers.map(num => num * 2);
+console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]

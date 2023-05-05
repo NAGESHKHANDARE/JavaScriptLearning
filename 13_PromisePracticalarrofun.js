@@ -9,9 +9,8 @@ let promiseToShareNotes = new Promise(function(success, reject){
 });
 
 promiseToShareNotes.then(fulfilled=>console.log(fulfilled))
-.catch( rej=>{
-    console.log("Sir why have not hared notes..");
-    console.log(rej);})
+.catch( rej=>{  console.log("Sir why have not hared notes..");
+                console.log(rej);})
 .finally(()=>{
     console.log(" ");
     console.log("----------------this part alway exucted--------");

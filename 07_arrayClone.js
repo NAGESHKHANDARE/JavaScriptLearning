@@ -1,7 +1,7 @@
 console.log(" Array shallow cloning ");
 let arrayofEvenNum = [0, 2, 4, 6, 8];
 let arrayOfNum = arrayofEvenNum; // shallow cloning
-arrayofEvenNum[1]=10;
+arrayofEvenNum[1]=10;// 2- 10
 console.log(arrayofEvenNum); // [0 10 4 6 8]
 console.log(arrayOfNum);  // [0 10 4 6 8]
 

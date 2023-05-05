@@ -1,4 +1,4 @@
-// why we call funtion as First Calss citizen in JS
+// why we call "funtion" as "First Calss citizen" in JS
 //1. we can store fun as a value
 let functionExpr = function(){
     console.log("1. inside fun expression");
@@ -7,8 +7,9 @@ functionExpr();
 
 // 2. we can  return function from another function
 function outer (){
+    console.log("2.a check");
     function display(){
-        console.log("2. inside display funtion");
+        console.log("2.b inside display funtion");
     }
     let inner = display;
     return inner;

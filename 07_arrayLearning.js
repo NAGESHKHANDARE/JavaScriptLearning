@@ -168,7 +168,7 @@ arrayOfNum.splice(2, 3, 99,77, 44);// replce index no 2nd and rplece value 6,8,9
 console.log(arrayOfNum);//[4 5 99 77 44 33 66]
 
 
-console.log(" ");
+console.log(" ");                    //************* */ 
 console.log("----- for of loop-------");
 var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
 console.log(arrayOfNum);

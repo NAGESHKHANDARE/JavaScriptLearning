@@ -1,4 +1,4 @@
-// pre declar or use is called hosting like var and normal function
+// pre declar or use is called hosting like "var" and "normal function"
 console.log(city);// undefined they not show city cant before iitialization
 var city = "akola";
 

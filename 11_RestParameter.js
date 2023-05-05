@@ -6,7 +6,7 @@
 function show(...details){// all value store in ...spreat parameter
     console.log(details);
 }
-show("Naesh",38,"Akola")  
+show("Nagesh",38,"Akola")  
 
 function info(name,...details){//only sachin store in name and remaing all value in spreat parameter ... and its always last writer 
     console.log(name,details);

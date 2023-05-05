@@ -19,12 +19,13 @@ console.log(pinCodeNagesh,totalRun,city);
 let {pinCode, totalRun, city, isMarried, wifeName="Mukta",son="Amit",Name } =person;// this variable use alwas use same key name
 console.log(pinCode, totalRun, city, isMarried, wifeName, son, Name);// last Name is not consider bcz there is name not Name so itis varibal is  undefined value
 
+console.log("       ----------        ");
 
 const arrayCompany = ["TSC", "infy", "Google", "Metaverse"];
 let  [comany1, com2, thredcom,com,com5="Microsoft",com6] = arrayCompany;
 console.log(comany1, com2, thredcom, com, com5, com6 );// it is variable 
 
-
+console.log(" ");
 // self invoking function or IIFE - immediately invoked function exression
 console.log("**self invoking function or IIFE - immediately invoked function exression**");
 (function show(){

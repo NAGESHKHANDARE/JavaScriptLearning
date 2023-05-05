@@ -52,16 +52,26 @@ console.log("-------------FOR OF  LOOP----------------");
 
  console.log("--------------Remove duplicates from array------------");
  const arrayNum = [1,2,3,4,1,88,3,2,6];
+
  const arrayNew = [...new Set(arrayNum)];
+ console.log("a=> ");
  console.log(arrayNew);//[1 2 3 4 88 6]
- let arrayofno = [5,6,4,5,5,6];
+
+         let arrayofno = [5,6,4,5,5,6];
+
  const RemSet = new Set(arrayofno);
- console.log(RemSet);//{}
+ console.log("b=> ");
+ console.log(RemSet);//Set(3) {size: 3, 5, 6, 4}
+
  const myarray = [...RemSet];
- console.log(myarray);//[]
+ console.log("c=>");
+ console.log(myarray);//(3) [5, 6, 4]
+
+
 
  class Employee{
-    constructor(empID, empName, empAge,empCity){
+    constructor(empID, empName, empAge,empCity)
+    {
         this.empID =empID;
         this.empName=empName;
         this.empAge=empAge;
@@ -76,16 +86,23 @@ console.log("-------------FOR OF  LOOP----------------");
  // collection - collection of elemnts
  // elements of datatype - primitive and non primitive (Reference)
  const arrayOfEmployees = [empNagesh, empDhir,empSachin,empGayatri];
+
+ console.log("d=> ");
  console.log(arrayOfEmployees);//[employee,....]
+
  // for of loop use for details
  for (const employee of arrayOfEmployees) {
     console.log(`Employee details are : ${employee.empID} ${employee.empName} ${employee.empCity}`);
  }
- const obj = arrayOfEmployees[0];
+
+
+ const obj = arrayOfEmployees[0];//0-index
+ console.log("e=>");
  console.log(obj);//{nagesh information}
+ console.log("f=>");
  console.log(obj.empName,obj.empCity);// Nagesh Akola
 
-console.log(`Set ==> `);
+console.log(`d=>   Set ==> `);
 const setofEmployees = new Set();
 setofEmployees.add(empNagesh);
 setofEmployees.add(empDhir);
@@ -93,6 +110,25 @@ setofEmployees.add(empSachin);
 setofEmployees.add(empGayatri);
 console.log(setofEmployees);
 
+console.log("=======");
+console.log("=>Set");
+// Creating a new set
+const mySet1 = new Set();
+
+// Adding elements to the set
+mySet1.add('apple');
+mySet1.add('banana');
+mySet1.add('cherry');
+console.log(mySet1);
+
+// Converting the set to an array
+const myArray = Array.from(mySet1);
+console.log(myArray);
+
+// Looping through the set
+mySet1.forEach((value) => {
+  console.log(value);
+});
 
 
 

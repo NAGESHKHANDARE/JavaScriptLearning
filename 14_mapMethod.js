@@ -9,7 +9,7 @@ const arrayTransform = arrayofnumber.map((currentValue)=>{
     return currentValue + 10;
     // or  return (`${currentValue} + 10 = ${currentValue + 10}`)
 })
-console.log(arrayTransform);
+console.log(arrayTransform);//(5) [10, 12, 13, 15, 16]
 
 
 const arrayofSquare = arrayofnumber.map((currentValue)=>{
@@ -40,11 +40,11 @@ let mahindra = new Vehicle("Mahindra","Thao","Petrol","Four wheel Drive",125000 
 let honda = new Vehicle("Honda","Unicorn","Petrol","Two wheelar",125000 );
 let  hero = new Vehicle("Hero","Splender","Petrol","Two wheeler",85000 );
 const arrayofVehicles = [audiA3,audiQ3,mahindra,honda,hero];
-
+console.log(arrayofVehicles);
 
 const arrayofupdatePV = arrayofVehicles.map((Vehicle)=>{ //PV =price update
-Vehicle.price = Vehicle.price - 10000;// update price of vehicle for each by 10k
-return Vehicle;
+ Vehicle.price = Vehicle.price - 10000;// update price of vehicle for each by 10k
+ return Vehicle;
 });
 console.log(arrayofupdatePV);// not expand   ------
 
@@ -60,7 +60,7 @@ arrayofupdatePV.forEach((vehicle)=>{
 const arrayofnum = [0, 2, 3, 5, 6];
 const arrayVI = arrayofnum.map((value,index,array)=>{
     return value + index
-})
+});
 console.log(arrayVI);
 
 

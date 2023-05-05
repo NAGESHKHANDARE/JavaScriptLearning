@@ -29,7 +29,7 @@ console.log(person.fullName());
 
 
 console.log(" ");
-console.log("--------------------------------------------------");
+console.log("---------------------A-----------------------------");
 
 // Add Func
 person.walk = function () {
@@ -38,14 +38,16 @@ person.walk = function () {
 console.log(person);
 
 console.log(" ");
-console.log("--------------------------------------------------");
+console.log("-------------------B-------------------------------");
 // add fun result
 console.log(person.walk());
+person.walk();
 
 console.log(" ");
-console.log("--------------------------------------------------");
+console.log("---------------------C-----------------------------");
 let txt = "";
 for (let x in person) {
   txt += person[x] + " ";
+  
 };
 console.log(txt);

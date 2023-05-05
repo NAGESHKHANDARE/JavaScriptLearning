@@ -39,6 +39,7 @@ parson.company = "Microsoft";
 console.log(parson);
 
 console.log("");
+
 console.log(`---------------------------------------------`);
 //update
 console.log(`== update AN PROPERY INTO AN OBJECT == `);
@@ -64,7 +65,11 @@ console.log("");
 console.log(`---------------------------------------------`);
 // accessing an function from an object
 console.log(`== accessing an function from an object ==`);
-parson.speak()
+parson.speak()  //hey i can spea english and hindi
+console.log(parson.speak);//ƒ () {
+                         //console.log(`hey i can spea english and hindi`);}
+
+
 
 console.log("");
 console.log(`---------------------------------------------`);
@@ -106,21 +111,21 @@ console.log("");
 console.log(`---------------------------------------------`);
 //array
 console.log(`asessing an array`);
-console.log(student.familyMemberName);
+console.log(student.familyMemberName);//(4) ['tony', 'lony', 'Jenny', 'Watigton']
 
 console.log("");
 console.log(`---------------------------------------------`);
 // add 
 console.log(`*Accessing an nested object function`);
 const totlaMarks = student.marks.add();
-console.log(`toal marks : ${totlaMarks}`);
+console.log(`toal marks : ${totlaMarks}`);//toal marks : 247
 
 console.log("");
 console.log(`---------------------------------------------`);
 // access property and value
 console.log(`Accessing an nested object property`);
 const scienceMark = student.marks.science;
-console.log(scienceMark);
+console.log(scienceMark);//70
 
 console.log("");
 console.log(`---------------------------------------------`);
